@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background: #e8f3f1;
+    color: #183b3a;
+    font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+#root {
+    width: 100%;
+    max-width: none;
+    min-height: 100vh;
+    border: 0;
+    text-align: left;
+}
+
+.app {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: linear-gradient(145deg, #dff2f0, #f5f5e9 60%, #fbe8c6);
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 32px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 18px 45px rgba(31, 76, 73, 0.14);
+}
+
+h1 {
+    margin: 0 0 24px;
+    color: #183b3a;
+    font-size: 1.8rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 0.9rem;
+}
+
+form input,
+form button {
+    width: 100%;
+    min-height: 46px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font: inherit;
+}
+
+form input {
+    margin-bottom: 10px;
+    border: 1px solid #cfddda;
+    background: #fff;
+    color: #183b3a;
+}
+
+form button {
+    border: 0;
+    background: #21645e;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #174d49;
+}
+
+.weather-info {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #e1e9e6;
+}
+
+.weather-info h2 {
+    margin: 0 0 12px;
+    color: #183b3a;
+}
+
+.weather-info p {
+    margin: 8px 0;
+}
+
+.error {
+    margin: 16px 0 0;
+    color: #a23d32;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 26px 20px;
+    }
+}
