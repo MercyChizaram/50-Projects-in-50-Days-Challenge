@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 50px;
+    background-color: #ddd4d4;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: azure;
+    border-radius: 3px;
+}
+
+form{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+}
